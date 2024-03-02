@@ -82,9 +82,7 @@ NO_REPLY = get_string("pmperm_3")
 UNAPPROVED_MSG = "I am Broken I am not here to suffer jo get the hell lost from here i do not need you bloody timewaster"
 if udB.get_key("PM_TEXT"):
     UNAPPROVED_MSG = (
-        "**I am Broken I am not here to suffer jo get the Hell Lost from here I Do Not Need you Bloody Timewaster**\n\n"
-        + udB.get_key("PM_TEXT")
-        + "\n"
+        "**I am Broken I am not here to suffer jo get the Hell Lost from here I Do Not Need you Bloody Timewaster**"
     )
 # 1
 WARNS = udB.get_key("PMWARNS") or 4
