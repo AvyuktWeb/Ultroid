@@ -79,10 +79,10 @@ UND = get_string("pmperm_1")
 UNS = get_string("pmperm_2")
 NO_REPLY = get_string("pmperm_3")
 
-UNAPPROVED_MSG = "I am Broken I am not here to suffer jo get the hell lost from here i do not need you bloody timewaster"
+UNAPPROVED_MSG = " I am not here to suffer so just get the hell lost from here i do not need you bloody timewaster"
 if udB.get_key("PM_TEXT"):
     UNAPPROVED_MSG = (
-        "I am Broken I am not here to suffer jo get the Hell Lost from here I Do Not Need you Bloody Timewaster"
+        "I am Broken I am not here to suffer so just get the Hell Lost from here I Do Not Need you Bloody Timewaster"
     )
 # 1
 WARNS = udB.get_key("PMWARNS") or 4
